@@ -1076,6 +1076,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
+    padding-top: 120px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
@@ -1110,7 +1111,12 @@ figure {
 img {
   vertical-align: middle;
 }
-.img-responsive{margin:0 auto;}
+.img-responsive{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -1571,6 +1577,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -1592,10 +1599,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-.footer-bicho{
-    height: 260px;
-    background-image: url("/ByeByeBichitos/img/img_fondofooter.png");
-}
+
 .rightFooter {
     display:table-cell;
     vertical-align: middle;
@@ -5308,101 +5312,18 @@ a.list-group-item-danger.active:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
-.panel-bicho-azul {
-  margin-bottom: 20px;
-  background-color: #fff;
-  border: 0px solid transparent;
-  border-radius: 4px;
- 
-}
-.panel-bicho-cafe {
-  margin-bottom: 20px;
-  background-color: #fff;
-  border: 0px solid transparent;
-  border-radius: 0px;
-}
-.panel-bicho-cafeclaro {
-  margin-bottom: 20px;
-  background-color: #fff;
-  border: 0px solid transparent;
-  border-radius: 10px;
-}
+
 
 .panel-body {
   padding: 15px;
 }
-.panel-body-bicho-azul {
-  //padding: 15px;
-  padding-top: 15px;
-  padding-right: 55px;
-  padding-left: 65px;
-  padding-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  color: #444444;
-  background-image: url("/ByeByeBichitos/img/img_fondotextos.png");
-  background-repeat:repeat-x;
-  text-align: justify;
-  text-justify: inter-word;
-}
 
-.panel-body-bicho-cafe {
-  //padding: 15px;
-  padding-top: 5px;
-  padding-right: 55px;
-  padding-left: 55px;
-  padding-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  color: #444444;
-  background-color: #F6D6CC;
-  border-radius: 0px;
-  text-align: justify;
-  ext-justify: inter-word;
-}
-.panel-body-bicho-cafeclaro {
-  //padding: 15px;
-  padding-top: 5px;
-  padding-right: 35px;
-  padding-left: 35px;
-  padding-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  color: #444444;
-  background-color: #F9E6E1;
-  border-top-left-radius: 10px;
-  border-top-right-radius:10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius:10px;
-  text-align: justify;
-  text-justify: inter-word;
-}
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   
-}
-.panel-heading-bicho-azul {
-  padding: 10px 15px;
-  border-bottom: 1px solid transparent;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: #49DDDE;
-  font-size: 40px;
-  color: #fff;
-}
-.panel-heading-bicho-cafe {
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid transparent;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  background-color: #F6D6CC;
-  font-size: 40px;
-  color: #fff;
 }
 
 .panel-heading > .dropdown .dropdown-toggle {

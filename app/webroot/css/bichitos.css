@@ -1,0 +1,127 @@
+.panel-bicho-azul {
+  margin-bottom: 20px;
+  background-color: #fff;
+  font-family: 'Muli', sans-serif;
+  border: 0px solid transparent;
+  border-radius: 4px;
+}
+.panel-bicho-cafe {
+  margin-bottom: 20px;
+  background-color: #fff;
+  font-family: 'Muli', sans-serif;
+  border: 0px solid transparent;
+  border-radius: 0px;
+}
+.panel-bicho-cafeclaro {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 0px solid transparent;
+  border-radius: 10px;
+}
+
+.panel-body-bicho-azul {
+  //padding: 15px;
+  padding-top: 15px;
+  padding-right: 55px;
+  padding-left: 65px;
+  padding-bottom: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #444444;
+  background-image: url("/ByeByeBichitos/img/img_fondotextos.png");
+  background-repeat:repeat-x;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.panel-body-bicho-azul-producto {
+  //padding: 15px;
+  vertical-align: top;
+  padding:15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #444444;
+  background-image: url("/ByeByeBichitos/img/img_fondotextos.png");
+  background-repeat:repeat-x;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.panel-body-bicho-cafe {
+  //padding: 15px;
+  padding-top: 5px;
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-bottom: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #444444;
+  background-color: #F6D6CC;
+  border-radius: 0px;
+  text-align: justify;
+  ext-justify: inter-word;
+}
+.panel-body-bicho-cafeclaro {
+  //padding: 15px;
+  padding-top: 5px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #444444;
+  background-color: #F9E6E1;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.panel-heading-bicho-azul {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #49DDDE;
+  font-size: 40px;
+  color: #fff;
+}
+.panel-heading-bicho-azul-producto {
+  padding: 5px 5px;
+  vertical-align: top;
+  min-height: 62px;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #49DDDE;
+  font-size: 18px;
+  color: #fff;
+}
+.panel-heading-bicho-cafe {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: #F6D6CC;
+  font-size: 40px;
+  color: #fff;
+}
+
+.footer-bicho{
+    padding: -1px;
+    height: 261px;
+    background-image: url("/ByeByeBichitos/img/img_fondofooter.png");
+}
+
+.ul-bichos {
+   list-style-image: url('/ByeByeBichitos/img/peine_bullet.png');
+}
+
+.ul-bichos li {
+   padding-bottom: 10px;
+}

@@ -1,15 +1,17 @@
-
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <a  href="Pages/display">
-              <?php echo $this->Html->image('img_logobichitos.png',array('width'=>'146px','height'=>'50px')); ?>
+              <?php echo $this->Html->image('img_logobichitos.png',array('width'=>'146px','height'=>'50px')); 
+              //echo $this->Html->image('img_logobichitos.png',array('alt'=>'logo','class'=>'img-responsive'));
+              ?>
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -69,7 +71,3 @@
       </div>
     </nav>
 
-<?php  
-    //debug($this->params); 
-    
-?>

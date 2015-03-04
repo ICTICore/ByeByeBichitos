@@ -32,6 +32,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		echo $this->Html->css('bootstrap');
                 echo $this->Html->css('bootstrap-theme');
+                echo $this->Html->css('bichitos');
                 echo $this->Html->script('jquery.min');
                 echo $this->Html->script('bootstrap');
                 
@@ -42,22 +43,19 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		
 	?>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-                    <?php echo $this->element('navbar')?>
-		</div>
-		<div id="content">
-
+    <?php echo $this->element('navbar')?>
+	<div class="container">
+		
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
-		</div>
-            
-                <?php echo $this->element('footbar'); ?>
 		
 	</div>
+    <?php echo $this->element('footbar'); ?>
 	<?php //echo $this->element('sql_dump'); ?>
 </body>
 </html>
