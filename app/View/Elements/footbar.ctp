@@ -8,7 +8,6 @@
             <td style="padding: 20px; vertical-align: bottom; text-align: right; font-size:14px">
                 <font color="#807580">Desarollada y Diseñada por </font>
                 <a href="http://coresoftevoluo.com/" target="_blank">
-                
                 <?php echo $this->Html->image('img_core.png');?>
                 </a>
             </td>

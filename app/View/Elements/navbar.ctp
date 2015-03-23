@@ -16,6 +16,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+                <li style="font-weight: bold; padding-right: 20px;">
+                    &nbsp;
+                </li>
                 <li <?php if($this->params['controller'] == "CursoYPlacticas"){ echo 'class="active"';} ?> style="font-weight: bold;">
                     <?php echo $this->Html->link('Cursos y Placticas', array('controller'=>'CursoYPlacticas', 'action'=>'index')); ?>
                 </li>
@@ -33,34 +36,24 @@
                 </li>            
             </ul>
             <ul class="nav navbar-nav navbar-right nav-pills">
-                
                 <li>
-                    
                     <a >
                         <b>¡Contactanos!</b> Tel: 5513898855
                     </a>
                 </li>
                 <li style="padding: 0px; height: 50px; width: 30px;">
-                    <?php 
-                    echo $this->Html->image("btn_fb.png", array(
-                        "alt" => "Facebook",
-                        'url' => 'http://www.facebook.com'
-                    ));
-                    ?>
+                    
+                    <?php echo $this->Html->link($this->Html->image("btn_fb.png",array('alt'=>'facebook')),'http://www.facebook.com', array('target'=>'_blank','escape'=>false)); ?>
                 </li>
                 <li  style="padding: 0px; height: 50px; width: 30px;">
-                    <?php 
-                    echo $this->Html->image("btn_g+.png", array(
-                        "alt" => "Google+",
-                        'url' => 'http://plus.google.com'
-                    ));
-                    ?>
+                    <?php echo $this->Html->link($this->Html->image("btn_g+.png",array('alt'=>'Google+')),'http://plus.google.com', array('target'=>'_blank','escape'=>false)); ?>
+            
                 </li>
                 <li style="padding: 0px; height: 50px; width: 30px;">
                     <?php 
                     echo $this->Html->image("btn_play.png", array(
                         "alt" => "Facebook",
-                        'url' => 's'
+                        'url' => '#'
                     ));
                     ?>
                 </li>

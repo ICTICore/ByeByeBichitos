@@ -74,34 +74,16 @@
                        ¿Comó se previenen los piojos?
                     </div>
                     <div class="panel-body-bicho-azul">
-                        <p>
-                        Primero la revisión ocular, debes observar que no haya presencia de
-                        liendres o piojos y que la persona no tenga episodios de comezón
-                        Después puedes pasar semanalmente por el cabello un peine de piojos
-                        y una lendrera, los cuales son peines especializados en extraer estos
-                        bichitos, se separa el cabello en 4 partes y se revisa de la nuca a la
-                        frente.
-                        </p>
-                        <p>
-                        También se utilizan productos repelentes de origen natural, que no
-                        dañan la salud de las personas y son muy efectivos como el aceite del
-                        árbol del Té.
-                        </p>
-                        <p>
-                        La utilización abundante de gel para peinar en el cabello también
-                        previene el contagio, ya que no permite al piojo adherirse al cabello.
-                        Toda la familia debe ser revisada para evitar nuevos contagios,
-                        especialmente si hay niños, en BYE BYE BICHITOS realizamos la
-                        revisión y diagnóstico SIN COSTO alguno.
-                        </p>
-                        <p>
-                        Se recomienda cambiar la ropa de cama como sabanas, colchas y
-                        cobijas, lavar muñecos de peluche y dejarlos al sol por lo menos 36
-                        horas y cambiar la ropa de la persona o personas infectadas.
-                        Se deben lavar con abundante agua caliente y jabón los peines, cepillos
-                        y artículos del cabello, de preferencia y si es posible desecharlos y
-                        adquirir nuevos.
-                        </p>
+                        <ol class="custom-counter">
+                            
+                            <li style="padding-bottom: 5px">Primero la revisión ocular, debes observar que no haya presencia de liendres o piojos y que la persona no tenga episodios de comezón</li>
+                            <li style="padding-bottom: 5px">Después puedes pasar semanalmente por el cabello un peine de piojos y una lendrera, los cuales son peines especializados en extraer estos bichitos, se separa el cabello en 4 partes y se revisa de la nuca a la frente</li>
+                            <li style="padding-bottom: 5px">También se utilizan productos repelentes de origen natural, que no dañan la salud de las personas y son muy efectivos como el aceite del árbol del Té</li>
+                            <li style="padding-bottom: 5px">La utilización abundante de gel para peinar en el cabello también previene el contagio, ya que no permite al piojo adherirse al cabello</li>
+                            <li style="padding-bottom: 5px">Toda la familia debe ser revisada para evitar nuevos contagios, especialmente si hay niños, en BYE BYE BICHITOS realizamos la revisión y diagnóstico SIN COSTO alguno</li>
+                            <li style="padding-bottom: 5px">Se recomienda cambiar la ropa de cama como sabanas, colchas y cobijas, lavar muñecos de peluche y dejarlos al sol por lo menos 36 horas y cambiar la ropa de la persona o personas infectadas</li>
+                            <li style="padding-bottom: 5px">Se deben lavar con abundante agua caliente y jabón los peines, cepillos y artículos del cabello, de preferencia y si es posible desecharlos y adquirir nuevos</li>  
+                        </ol>
                     </div>
                 </div>
             </td>

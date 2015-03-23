@@ -22,13 +22,13 @@
 .panel-body-bicho-azul {
   //padding: 15px;
   padding-top: 15px;
-  padding-right: 55px;
-  padding-left: 65px;
+  padding-right: 10%;
+  padding-left: 15%;
   padding-bottom: 15px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   color: #444444;
-  background-image: url("/ByeByeBichitos/img/img_fondotextos.png");
+  background-image: url("../img/img_fondotextos.png");
   background-repeat:repeat-x;
   text-align: justify;
   text-justify: inter-word;
@@ -50,8 +50,8 @@
 .panel-body-bicho-cafe {
   //padding: 15px;
   padding-top: 5px;
-  padding-right: 55px;
-  padding-left: 55px;
+  padding-right: 5%;
+  padding-left: 5%;
   padding-bottom: 15px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
@@ -115,13 +115,73 @@
 .footer-bicho{
     padding: -1px;
     height: 261px;
-    background-image: url("/ByeByeBichitos/img/img_fondofooter.png");
+    background-image: url("../img/img_fondofooter.png");
 }
 
 .ul-bichos {
-   list-style-image: url('/ByeByeBichitos/img/peine_bullet.png');
+   list-style-image: url('../img/img_peine2.png');
 }
 
 .ul-bichos li {
    padding-bottom: 10px;
 }
+
+.custom-counter {
+    margin-left: 5px ;
+    padding-right: 0;
+    list-style-type: none;
+}
+.custom-counter li {
+    counter-increment: step-counter;
+}
+.custom-counter li::before {
+    
+
+    content: counter(step-counter);
+    margin-right: 15px;
+    font-size: 80%;
+    background-color: #49DDDE;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px; /* Add some spacing around the content */
+    //list-style:none; /* Disable the normal item numbering */
+    //border-top:1px solid #f6f6f6;
+    //background:#f6f6f6;
+}
+ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    //top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    //border-top:2px solid #666;
+    color:#fff;
+    //background:#666;
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
