@@ -2,7 +2,7 @@
     <table border='0' height='322px' width='100%'>
         <tr>
             <td style="vertical-align: top; width: 30%; text-align: center; padding-top: 10px; padding-bottom: 10px;">               
-                <img class="img-responsive" src="http://placehold.it/300x600&text=FotosMétodo" alt="img" class="img-responsive">
+                <?php echo $this->Html->image('metodo/1.jpg',array('class'=>'img-responsive')); ?>
             </td> 
             <td style="vertical-align: top; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 40px;">
                 <div class="panel-bicho-azul panel-default">
@@ -10,7 +10,7 @@
                         Método Bye-Bye
                     </div>
                     <div class="panel-body-bicho-azul">
-                        <ul class="ul-bichos">
+                        <ol class="custom-counter">
                             <li>DESENREDAMOS el cabello perfectamente</li>
                             <li>APLICAMOS la loción eliminadora de piojos en todo el cabello seco</li>
                             <li>COLOCAMOS la gorra de plástico durante 10 minutos</li>
@@ -20,13 +20,13 @@
                             <li>LAVAMOS el cabello nuevamente</li>
                             <li>SECAMOS el cabello con una toalla y pasamos el peine de piojos y posteriormente el peine liendrera, hasta que ya no salgan ni piojos ni liendres</li>
                             <li>SECAMOS con secadora para el cabello y LISTO!!!</li>
-                            <li>REVISAMOS 1 semana después para verificar que se hayan eliminado
+                            <li>REVISAMOS Una semana después para verificar que se hayan eliminado
                             los bichitos y aplicamos el tratamiento de forma más rápida, ésta sin
                             costo alguno (IMPORTANTE)
                             </li>
                             <li>APLICAMOS como método preventivo el repelente sobre el cabello y piel del cuello y orejas</li>
 
-                        </ul>
+                        </ol>
                     </div>
                 </div>
             </td>
