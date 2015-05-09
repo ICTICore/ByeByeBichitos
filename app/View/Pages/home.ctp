@@ -1,5 +1,8 @@
 <script>
+        localStorage['flag_spot']="yes";
+        
         jQuery(document).ready(function ($) {
+            
             //Reference http://www.jssor.com/development/slider-with-slideshow-jquery.html
             //Reference http://www.jssor.com/development/tool-slideshow-transition-viewer.html
 

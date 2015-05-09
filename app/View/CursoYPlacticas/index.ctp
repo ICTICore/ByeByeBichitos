@@ -54,7 +54,9 @@
                 </div>
             </td>
             <td style="vertical-align: top; width: 30%; text-align: center; padding-bottom: 25px;">
-                
+                <p style="color:#00AAFF; font-size: 23px; font-family: 'Muli', sans-serif;">
+                    La pediculosis es una enfermedad, por lo tanto también hacemos PRESCRIPCIONES MÉDICAS con personal calificado para ello
+                </p>
             </td> 
         </tr>
     </table>

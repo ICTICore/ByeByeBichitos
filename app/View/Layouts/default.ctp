@@ -3,6 +3,7 @@ $cakeDescription = __d('cake_dev', 'Bye Bye Bichitos');
 ?>
 <!DOCTYPE html>
 <html lang="es">
+    
 <head>
 	<?php echo $this->Html->charset('utf-8'); ?>
 	<title>
@@ -32,7 +33,50 @@ $cakeDescription = __d('cake_dev', 'Bye Bye Bichitos');
             <meta name="viewport" content="width=device-width, initial-scale=0.6">
     
 </head>
+
 <body>
+    <script>
+    $(document).ready(function() {
+        
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'spot.mp3');
+        
+        var tocar_spot = localStorage['flag_spot'];
+        //alert(tocar_spot);
+        if(tocar_spot == "yes"){
+            audioElement.setAttribute('autoplay', 'autoplay');
+            $("#btn_pausa").show();
+            $("#btn_play").hide();
+        }
+        else{
+            $("#btn_pausa").hide();
+            $("#btn_play").show();
+        }
+        //audioElement.load()
+        
+        $.get();
+
+        audioElement.addEventListener("load", function() {
+            audioElement.play();
+        }, true);
+
+        $('.play').click(function() {
+            audioElement.play();
+             $("#btn_pausa").show();
+             $("#btn_play").hide();
+            localStorage['flag_spot'] = "yes";
+            
+        });
+
+        $('.pause').click(function() {
+            audioElement.pause();
+            $("#btn_pausa").hide();
+            $("#btn_play").show();
+            localStorage['flag_spot'] = "no";
+        });
+    });
+</script>
+    
     <?php echo $this->element('navbar')?>
     
         <?php echo $this->fetch('content'); ?>
@@ -41,4 +85,5 @@ $cakeDescription = __d('cake_dev', 'Bye Bye Bichitos');
     <?php echo $this->element('footbar'); ?>
 
 </body>
+
 </html>

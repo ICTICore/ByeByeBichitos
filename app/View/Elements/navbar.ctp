@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -49,18 +50,38 @@
                     <?php echo $this->Html->link($this->Html->image("btn_g+.png",array('alt'=>'Google+')),'http://plus.google.com', array('target'=>'_blank','escape'=>false)); ?>
             
                 </li>
-                <li style="padding: 0px; height: 50px; width: 30px;">
-                    <?php 
-                    echo $this->Html->image("btn_play.png", array(
-                        "alt" => "Facebook",
-                        'url' => '#'
-                    ));
-                    ?>
+
+                <li id='btn_play'  style="padding: 0px; height: 50px; width: 30px;">
+                    
+                        <?php 
+                        echo $this->Html->image("btn_play.png", array(
+                            "alt" => "Facebook",
+                            'url' => '#',
+                            'class' => 'play',
+                            
+                        ));
+                        ?>
                 </li>
+                <li id='btn_pausa'  style="padding: 0px; height: 50px; width: 30px;">
+                        <?php 
+                        echo $this->Html->image("btn_pausa.png", array(
+                            "alt" => "Facebook",
+                            'url' => '#',
+                            'class' => 'pause',
+
+                            
+                        ));
+                        ?>
+                    
+                </li>
+                
+
+
       
             </ul>  
           
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
 
