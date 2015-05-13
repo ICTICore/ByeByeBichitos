@@ -7,7 +7,7 @@
                 </p>
             </td>
         </tr>
-        <tr>
+        <tr style="vertical-align: top;">
             <td style="width: 33%; padding-left:10px;  padding-right:10px;">
                 <div class="panel-bicho-azul panel-default">
                     <div class="panel-heading-bicho-azul-producto">
@@ -15,9 +15,9 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center;"><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center;"><?php echo $this->Html->image('productos/solucion.png',array('alt'=>'img','class'=>"img-responsive"));?>  </td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
@@ -29,9 +29,9 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center; "><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center; "><?php echo $this->Html->image('http://placehold.it/200x300&text=Producto',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
@@ -43,16 +43,16 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center;"><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center;"><?php echo $this->Html->image('productos/repelente.png',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
             </td>
         </tr>
         
-        <tr>
+        <tr style="vertical-align: top;">
             <td style="width: 33%; padding-left:10px;  padding-right:10px;">
                 <div class="panel-bicho-azul panel-default">
                     <div class="panel-heading-bicho-azul-producto">
@@ -60,9 +60,9 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center;"><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center;"><?php echo $this->Html->image('productos/gel.png',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
@@ -70,13 +70,13 @@
             <td style="width: 33%; padding-left:10px;  padding-right:10px;">
                 <div class="panel-bicho-azul panel-default">
                     <div class="panel-heading-bicho-azul-producto">
-                        PEINE LENDRERA
+                        PEINE LIENDRERA
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center; "><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center; "><?php echo $this->Html->image('productos/peine_liendrera.png',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
@@ -88,15 +88,15 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center;"><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center;"><?php echo $this->Html->image('productos/peine_caspero.png',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
             </td>
         </tr>
-        <tr>
+        <tr style="vertical-align: top;">
             <td style="width: 33%; padding-left:10px;  padding-right:10px;">
                 <div class="panel-bicho-azul panel-default">
                     <div class="panel-heading-bicho-azul-producto">
@@ -104,9 +104,9 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center;"><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center;"><?php echo $this->Html->image('productos/paq_familiar.png',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
@@ -121,9 +121,9 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center;"><img class="img-responsive" src="http://placehold.it/200x200&text=Producto" alt="img" class="img-responsive"></td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;" ><b>Descripción:</b> </td></tr>
-                            <tr><td style="padding-top: 10px; padding-bottom: 10px;"><b>Precio:</b></td></tr>
+                            <tr><td style="text-align: center;"><?php echo $this->Html->image('productos/shampoo.png',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            
+                            
                         </table>
                     </div>
                 </div>
