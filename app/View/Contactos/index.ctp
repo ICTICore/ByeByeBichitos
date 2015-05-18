@@ -7,9 +7,9 @@
                 </p>
                 
                 <p style="color:#000090; font-size: 18px; font-family: 'Muli', sans-serif; text-align: justify;">
-                    De nosotros, costos, del tema, una platica escolar, promociones y un sin fin; entra en contacto, hay mas de una forma; también para tus peques, te invitamos a probar nuestro método
+                    Contactanos para información sobre nosotros, acerca de nuestros costos, de la pediculosis, platicas escolares gratuitas, promociones o de algún otro tema. Tenemos más de una forma y tus peques pueden acceder a ellas, ya que es una información segura. Ven, ¡Te invitamos a conocer nuestro método!.
                 </p>
-
+                <?php echo $this->Html->image('platicas.png',array('class'=>'img-responsive')); ?>
 
             </td>
             <td style="vertical-align: top; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 40px;">

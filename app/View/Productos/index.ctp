@@ -29,7 +29,7 @@
                     </div>
                     <div class="panel-body-bicho-azul-producto">
                         <table width="100%">
-                            <tr><td style="text-align: center; "><?php echo $this->Html->image('http://placehold.it/200x300&text=Producto',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
+                            <tr><td style="text-align: center; "><?php echo $this->Html->image('productos/acondicionador.png',array('alt'=>'img','class'=>"img-responsive"));?></td></tr>
                             
                             
                         </table>

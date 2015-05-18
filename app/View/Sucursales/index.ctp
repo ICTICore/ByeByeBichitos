@@ -8,7 +8,7 @@
             <td style="vertical-align: top; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 40px;">
                 <div class="panel-bicho-azul panel-default">
                     <div class="panel-heading-bicho-azul">
-                        Paraje Tetenco
+                        Tlalpan
                     </div>
                     <div class="panel-body-bicho-azul">
                         <p>
@@ -35,7 +35,7 @@
             <td style="vertical-align: top; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 40px;">
                 <div class="panel-bicho-azul panel-default">
                     <div class="panel-heading-bicho-azul">
-                        Mixcoatl
+                        Iztapalapa
                     </div>
                     <div class="panel-body-bicho-azul">
                         <p>Calle Cuauhtemoc M-15 L-23 Col Mixcoatl CP. 09708 en la Ex-ruta 100
