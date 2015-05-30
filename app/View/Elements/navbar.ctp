@@ -19,7 +19,7 @@
             <ul class="nav navbar-nav">
                 
                 <li <?php if($this->params['controller'] == "CursoYPlacticas"){ echo 'class="active"';} ?>>
-                    <?php echo $this->Html->link('Cursos y Placticas', array('controller'=>'CursoYPlacticas', 'action'=>'index')); ?>
+                    <?php echo $this->Html->link('Cursos y Plácticas', array('controller'=>'CursoYPlacticas', 'action'=>'index')); ?>
                 </li>
                 <li <?php if($this->params['controller'] == "Productos"){ echo 'class="active"';} ?>>
                     <?php echo $this->Html->link('Productos', array('controller'=>'Productos', 'action'=>'index')); ?>

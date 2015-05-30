@@ -5,6 +5,9 @@
                 <p style="color:#00AAFF; font-size: 23px; font-family: 'Muli', sans-serif; text-align: center;">
                     Adquiere en nuestras sucursales alguno de nuestros productos de la mejor calidad
                 </p>
+                <p style="color:#000090; font-size: 20px; font-family: 'Muli', sans-serif; text-align: center;">
+                    Todos nuestros productos son una mezcla de aceites esenciales naturales, que ayudan a la eliminación de piojos y liendres o a la prevención del contagio; son hechos con una alta calidad y con ingredientes totalmente naturales.
+                </p>
             </td>
         </tr>
         <tr style="vertical-align: top;">

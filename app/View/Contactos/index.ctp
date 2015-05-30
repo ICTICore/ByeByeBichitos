@@ -29,8 +29,9 @@
                     <div class="panel-heading-bicho-azul">
                         Redes sociales
                     </div>
-                    <div class="panel-body-bicho-azul">
-                         <div class="fb-page" data-href="https://www.facebook.com/byebyebichitos" data-width="400" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/byebyebichitos"><a href="https://www.facebook.com/byebyebichitos">Bye Bye Bichitos - Eliminación de piojos y liendres</a></blockquote></div></div>
+                    <div class="panel-body-bicho-azul" style="padding:10px; text-align: center;">
+                        
+                         <div class="fb-page" data-href="https://www.facebook.com/byebyebichitos" data-width="100%" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/byebyebichitos"><a href="https://www.facebook.com/byebyebichitos">Bye Bye Bichitos - Eliminación de piojos y liendres</a></blockquote></div></div>
                     </div>
                 </div>
                 

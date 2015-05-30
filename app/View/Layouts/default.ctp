@@ -30,7 +30,7 @@ $cakeDescription = __d('cake_dev', 'Bye Bye Bichitos');
                     
 	?>
             <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-            <meta name="viewport" content="width=device-width, initial-scale=0.6">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
     
 </head>
 
